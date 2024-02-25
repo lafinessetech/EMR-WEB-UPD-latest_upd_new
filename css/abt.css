@@ -1,0 +1,151 @@
+/*.hodpic{
+    width: 250px; 
+      margin-top: 15px;
+     margin-right: 10px;
+     margin-left: 50px;
+     
+     box-shadow:0 3px 20px black ;
+     border-radius: 0;
+  }*/
+  .intro{
+    display: flex;
+    margin-top: 40px;
+    background: whitesmoke;
+    text-align: center;
+    padding: 0 200px 0 200px;
+    
+    padding-bottom: 10px;
+    background: url(/images/white-sky.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 3px 25px 0 black;
+    
+
+  }
+  /*.intro h2{
+    padding-left: 50px;
+  }*/
+  
+  .intro h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: -20px;
+    padding-top: 15px;
+    color: rgba(0, 0, 0, 0.692);
+  }
+  .intro p{
+    text-align: left;
+    color: rgba(0, 0, 0, 0.788);
+    font-size: 25px;
+  }
+  /*}.hodpic{
+    width: 250px; 
+      margin-top: 15px;
+     margin-right: 10px;
+     margin-left: 50px;
+     
+     box-shadow:0 3px 20px black ;
+     border-radius: 0;
+  }*/
+  /*.oga p{
+    text-align: center;
+  }*/
+  .read-more1{
+    text-align: left;
+    margin-bottom: 10px;
+    
+  }
+  .read-more1 a{
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 4px;
+    
+  }
+  
+  .read-more1 a:hover{
+    color: white;
+    background-color: black;
+  }
+  
+  /* for cmd, hcs and hou*/
+  section{
+    border: 10px solid whitesmoke;
+    border-radius: 35px;
+    
+  }
+  section .text-container {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    
+  }
+  section .text-container .text-box {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+  
+  }
+  section .text-container .text-box{
+    border-radius: 0;
+  }
+  section .text-container .text-box p{
+    color: green;
+  }
+  section h2{
+    font-size: 75px;
+    padding-top: 100px;
+    font-family: "Saira Condensed", sans-serif;
+  font-weight: 600;
+  color: green;
+  }
+  
+
+  @media only screen and (max-width: 1080px){
+    .intro{
+        display: block;
+        margin-top: 450px;
+    }
+    
+    
+    .oga{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .read-more1 {
+     padding-bottom: 10px;
+     padding-left: 5px;
+    }
+    section .text-container{
+      display: block;
+    }
+  }
+
+  .reveal {
+    position: relative;
+    opacity: 0;
+  }
+  
+  .reveal.active {
+    opacity: 1;
+  }
+  .active.fade-top {
+    animation: fade-top 2s ease-in;
+  }
+  
+  @keyframes fade-top {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  
+  }
+  
+  
